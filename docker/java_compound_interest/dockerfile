@@ -1,0 +1,5 @@
+FROM openjdk:17-jdk-slim
+WORKDIR /app
+COPY example.java .
+RUN javac example.java
+CMD ["java", "example"]

@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prime-java
+  labels:
+    app: prime-java
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: prime-java
+  template:
+    metadata:
+      labels:
+        app: prime-java
+    spec:
+      containers:
+      - name: prime-java
+        image: freetimerenderzz100/prime-java:latest
+        stdin: true
+        tty: true

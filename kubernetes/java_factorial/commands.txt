@@ -1,0 +1,9 @@
+docker build -t factorial-java .
+docker run -it factorial-java
+docker tag factorial-java <docker-username>/factorial-java:latest
+docker push <docker-username>/factorial-java:latest
+minikube start
+minikube image load factorial-java
+kubectl apply -f deployment.yml
+kubectl get all
+kubectl exec <pod-name> -- java example

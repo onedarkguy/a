@@ -1,0 +1,4 @@
+FROM node:latest
+WORKDIR /app
+COPY example.js .
+CMD ["node", "example.js"]

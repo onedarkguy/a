@@ -1,0 +1,9 @@
+docker build -t prime-java .
+docker run -it prime-java
+docker tag prime-java <docker-username>/prime-java:latest
+docker push <docker-username>/prime-java:latest
+minikube start
+minikube image load prime-java
+kubectl apply -f deployment.yml
+kubectl get all
+kubectl exec <pod-name> -- java example

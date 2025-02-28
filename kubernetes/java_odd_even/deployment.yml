@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: odd-even-java
+  labels:
+    app: odd-even-java
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: odd-even-java
+  template:
+    metadata:
+      labels:
+        app: odd-even-java
+    spec:
+      containers:
+      - name: odd-even-java
+        image: <docker-username>/odd-even-java:latest
+        stdin: true
+        tty: true

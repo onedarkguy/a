@@ -1,0 +1,9 @@
+docker build -t hello-world .
+docker run -it hello-world
+docker tag hello-world <docker-username>/hello-world:latest
+docker push <docker-username>/hello-world:latest
+minikube start
+minikube image load hello-world
+kubectl apply -f deployment.yml
+kubectl get all
+kubectl exec <pod-name> -- java example

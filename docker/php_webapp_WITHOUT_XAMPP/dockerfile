@@ -1,0 +1,4 @@
+FROM php:latest
+WORKDIR /app
+COPY example.php .
+CMD [ "php", "-S", "0.0.0.0:5000", "example.php" ]
