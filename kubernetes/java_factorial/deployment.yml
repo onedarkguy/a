@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: factorial-java
-        image: <dockerhub-username>/factorial-java:latest
+        image: <docker-username>/factorial-java:latest
         stdin: true
         tty: true
