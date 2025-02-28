@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: prime-java
-        image: freetimerenderzz100/prime-java:latest
+        image: <docker-username>/prime-java:latest
         stdin: true
         tty: true
