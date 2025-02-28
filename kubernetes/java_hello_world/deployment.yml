@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: freetimerenderzz100/hello-world:latest
+        image: <docker-username>/hello-world:latest
         stdin: true
         tty: true
         command: ["tail", "-f", "/dev/null"]
