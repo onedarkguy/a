@@ -1,0 +1,19 @@
+1. kubectl version
+2. kubectl get all
+3. kubectl get pods
+4. kubectl get deployments
+5. kubectl get service
+6. kubectl get nodes
+7. kubectl delete pods --all
+8. kubectl delete deployment --all
+9. kubectl delete service --all
+10. kubectl cluster-info
+11. kubectl get pods -o wide
+12. kubectl describe pod podname
+13. kubectl describe deployment deploymentname
+14. kubectl describe service servicename
+15. kubectl config view
+16. kubectl create deployment deploymentname
+17. kubectl create service servicename
+18. kubectl apply -f deploymentname
+19. kubectl apply -f servicename
