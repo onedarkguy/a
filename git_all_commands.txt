@@ -1,0 +1,10 @@
+1. git init
+2. git add filename
+3. git commit -m "message"
+4. git remote add origin githublink
+5. git branch branchname
+6. git checkout branchname
+7. git push -u origin branchname
+8. git checkout -b newbranchname
+9. git pull origin existingbranchname
+10. git merge existingbranchname
