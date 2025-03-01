@@ -1,0 +1,7 @@
+1. docker build -t imagename .
+2. docker run -it imagename //for cmd
+3. docker run -d -p port:port imagename //when running on web
+4. docker tag imagename docker-username/imagename:latest
+5. docker push docker-username/imagename:latest
+6. docker images //shows all running images
+7. docker system prune -a //deletes useless images
