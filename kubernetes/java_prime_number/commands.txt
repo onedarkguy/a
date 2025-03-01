@@ -6,4 +6,4 @@ minikube start
 minikube image load prime-java
 kubectl apply -f deployment.yml
 kubectl get all
-kubectl exec <pod-name> -- java example
+kubectl exec -it <pod-name> -- java example
