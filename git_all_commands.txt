@@ -16,3 +16,7 @@
 16. git show origin
 17. git config --local user.email your-email-address
 18. git config --local user.name your-email-address
+19. git --version
+20. git status
+21. git config --list --global
+22. git config --list --local
