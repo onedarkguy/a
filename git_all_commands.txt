@@ -8,3 +8,11 @@
 8. git checkout -b newbranchname
 9. git pull origin existingbranchname
 10. git merge existingbranchname
+11. git status
+12. git log
+13. git remote rm origin
+14. git config --global user.email your-email-address
+15. git config --global user.name your-user-name
+16. git show origin
+17. git config --local user.email your-email-address
+18. git config --local user.name your-email-address
