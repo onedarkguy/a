@@ -17,3 +17,4 @@
 17. kubectl create service servicename
 18. kubectl apply -f deploymentname
 19. kubectl apply -f servicename
+20. kubectl exec pod-name -- java classname
