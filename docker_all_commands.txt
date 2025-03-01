@@ -5,3 +5,7 @@
 5. docker push docker-username/imagename:latest
 6. docker images //shows all running images
 7. docker system prune -a //deletes useless images
+8. docker info
+9. docker ps
+10. docker ps -a
+11. docker --version
